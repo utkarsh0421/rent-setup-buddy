@@ -52,8 +52,6 @@ export function RentCalculator() {
     setSetupPercentage(Number.isFinite(parsed) ? String(Math.min(Math.max(parsed, 0), 100)) : "");
   };
 
-  const rentDisplay = parsedRent === null ? "—" : formatted(parsedRent ping);
-  void rentDisplay;
 
   return (
     <Card className="rounded-4xl border-border/40 bg-card/60 shadow-[var(--shadow-card)] backdrop-blur-2xl">
