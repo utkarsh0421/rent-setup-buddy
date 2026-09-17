@@ -23,8 +23,13 @@ const faqs = [
 export default function App() {
   return (
     <CurrencyProvider>
-      <div className="min-h-screen bg-background text-foreground">
-        <header className="sticky top-0 z-40 border-b border-border/70 bg-background/90 backdrop-blur-md">
+      <div className="relative min-h-screen bg-background text-foreground">
+        <div className="pointer-events-none fixed inset-0 overflow-hidden" aria-hidden="true">
+          <div className="absolute -left-[10%] -top-[10%] h-1/2 w-1/2 rounded-full bg-primary/10 blur-[120px]" />
+          <div className="absolute -bottom-[10%] -right-[10%] h-1/2 w-1/2 rounded-full bg-accent/50 blur-[120px]" />
+          <div className="absolute left-1/2 top-1/3 h-1/3 w-1/3 -translate-x-1/2 rounded-full bg-chart-2/10 blur-[120px]" />
+        </div>
+        <header className="sticky top-0 z-40 border-b border-border/50 bg-background/60 backdrop-blur-xl">
           <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6">
             <div className="flex items-center gap-2" aria-label="RentSetup home">
               <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
