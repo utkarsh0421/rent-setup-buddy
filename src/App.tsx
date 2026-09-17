@@ -1,4 +1,4 @@
-import { Check, ChevronDown, House } from "lucide-react";
+import { Check, ChevronDown } from "lucide-react";
 import { CurrencySelect } from "@/components/CurrencySelect";
 import { RentCalculator } from "@/components/RentCalculator";
 import { CurrencyProvider } from "@/lib/currency";
@@ -28,7 +28,7 @@ export default function App() {
           <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6">
             <div className="flex items-center gap-2" aria-label="RentSetup home">
               <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                <House className="size-5" aria-hidden="true" />
+                <span aria-hidden="true">🏠</span>
               </span>
               <span className="text-lg font-bold tracking-tight">RentSetup</span>
             </div>

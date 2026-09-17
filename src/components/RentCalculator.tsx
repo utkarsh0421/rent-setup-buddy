@@ -31,10 +31,18 @@ export function RentCalculator() {
   const formatted = (value: number) => formatCurrency(value, currency.locale, currency.code);
 
   const handleRentChange = (value: string) => {
+    if (value.includes("-")) {
+      setMonthlyRent("0");
+      return;
+    }
     setMonthlyRent(value.replace(/[^0-9.]/g, ""));
   };
 
   const handlePercentageChange = (value: string) => {
+    if (value.includes("-")) {
+      setSetupPercentage("0");
+      return;
+    }
     const cleaned = value.replace(/[^0-9.]/g, "");
     if (cleaned === "") {
       setSetupPercentage("");
