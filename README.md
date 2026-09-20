@@ -266,4 +266,4 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 
 ---
 
-<p align="center">Built with ❤️ using <a href="https://lovable.dev">Lovable</a> · Calculations run in your browser 🏠</p>
+<p align="center">Built with ❤️ by <strong>Utlarsh Vidyarthi</strong> using <a href="https://lovable.dev">Lovable</a> · Calculations run in your browser 🏠</p>
