@@ -6,6 +6,8 @@ A beautiful, lightning-fast **rent setup calculator** that helps tenants underst
 
 **100% free · No signup · No data collection · Runs entirely client-side** ✨
 
+🔗 **Live App:** [https://rent-setup-buddy.lovable.app](https://rent-setup-buddy.lovable.app)
+
 ---
 
 ## 📋 Table of Contents
